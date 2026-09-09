@@ -1,9 +1,7 @@
 # Aliaksandra Sakalouskaya
 **Batumi, Georgia**
 
-***
 [asya.sokolovskaya.98@gmail.com](mailto:asya.sokolovskaya.98@gmail.com) · [LinkedIn](https://www.linkedin.com/in/sokolovskaya-asya/) · [GitHub](https://github.com/aliaksandra-sakalouskaya/)
-***
 
 ## About me
 I am a frontend developer with 5 years of experience in ecommerce, specializing in Magento 2. I built and customized online-store themes for European clients: storefront work (layout XML, phtml, LESS, jQuery), responsive email templates, and store configuration in the admin panel. Adobe Certified Professional — Adobe Commerce Front-End Developer.
