@@ -26,14 +26,21 @@ h1,
 h2,
 h3 {
   font-family: "Spectral", serif;
+  color: #2D3E5B;
+  font-weight: 500;
 }
 
 h1 {
-  font-weight: 500;
   font-size: 36px;
-  color: #2D3E5B;
   margin-top: 0;
   margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-style: italic;
 }
 
 h4 {
@@ -49,7 +56,7 @@ h4 {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -82,4 +89,56 @@ h4 {
 
 .contacts__link {
   font-weight: 300;
+}
+
+.description {
+  background-color: #F7F8F8;
+  font-family: "Spectral", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.experience {
+  margin-bottom: 40px;
+}
+
+.experience__item {
+  padding-bottom: 20px;
+  border-bottom: 2px solid #EDEDED;
+}
+
+.experience__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0 20px;
+  margin-bottom: 20px;
+}
+
+.experience__role {
+  margin: 0;
+}
+
+.experience__company,
+.experience__period {
+  display: flex;
+  align-items: center;
+  gap: 0 5px;
+  margin: 0;
+}
+
+.experience__dates,
+.experience__link {
+  font-weight: 300;
+}
+
+.experience__responsibilities {
+  list-style: initial;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  padding-left: 15px;
 }
