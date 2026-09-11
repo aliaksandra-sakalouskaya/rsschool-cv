@@ -3,16 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My CV</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&family=Spectral:ital,wght@0,300;0,400;0,500;1,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header class="header">
         <div class="container">
+            <div class="about-me">
+                <img src="./img/photo.png" alt="Photo of Aliaksandra Sakalouskaya" width="160" height="160" class="about-me__photo">
 
+                <div>
+                    <h1 class="about-me__name">Aliaksandra Sakalouskaya</h1>
+                    <h4>Full Stack Developer</h4>
+                </div>
+            </div>
+
+            <div class="contacts">
+                <ul class="contacts__list">
+                    <li class="contacts__item">
+                        <svg class="contacts__icon" width="18" height="18" fill="none">
+                            <use href="./img/sprite.svg#icon-mail"></use>
+                        </svg>
+                        <a class="contacts__link" href="mailto:asya.sokolovskaya.98@gmail.com">
+                            asya.sokolovskaya.98@gmail.com
+                        </a>
+                    </li>
+                    <li class="contacts__item">
+                        <svg class="contacts__icon" width="18" height="18" fill="none">
+                            <use href="./img/sprite.svg#icon-portfolio"></use>
+                        </svg>
+                        <a class="contacts__link" href="#" ref="noopener noreferrer" target="_blank">
+                            Portfolio
+                        </a>
+                    </li>
+                    <li class="contacts__item">
+                        <svg class="contacts__icon" width="18" height="18" fill="none">
+                            <use href="./img/sprite.svg#icon-linkedin"></use>
+                        </svg>
+                        <a class="contacts__link" href="https://www.linkedin.com/in/sokolovskaya-asya/" ref="noopener noreferrer" target="_blank" >
+                            Aliaksandra Sakalouskaya
+                        </a>
+                    </li>
+                    <li class="contacts__item">
+                        <svg class="contacts__icon" width="18" height="18" fill="none">
+                            <use href="./img/sprite.svg#icon-instagram"></use>
+                        </svg>
+                        <a class="contacts__link" href="https://www.instagram.com/asya.sokolovskaya/" ref="noopener noreferrer" target="_blank">
+                            asya.sokolovskaya
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
     <main class="main">

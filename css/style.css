@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  color: #242424;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, 
+h2,
+h3 {
+  font-family: "Spectral", serif;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 36px;
+  color: #2D3E5B;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 16px;
+  color: #DB9291;
+  text-transform: uppercase;
+  letter-spacing: 15%;
+  margin-top: 0;
+}
+
+.header {
+  padding: 60px 0 40px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  gap: 0 40px;
+}
+
+.about-me__photo {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.contacts {
+  margin-top: 20px
+}
+
+.contacts__list {
+  display: flex;
+  gap: 0 20px;
+}
+
+.contacts__item {
+  display: flex;
+  align-items: center;
+  gap: 0 5px;
+}
+
+.contacts__link {
+  font-weight: 300;
+}
