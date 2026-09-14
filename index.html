@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&family=Spectral:ital,wght@0,300;0,400;0,500;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.30.0/themes/prism-tomorrow.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a class="nav__link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#code">Code Samples</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#education">Education</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="about-me">
+                <img src="./img/photo.png" alt="Photo of Aliaksandra Sakalouskaya" width="160" height="160" class="about-me__photo">
+
+                <div>
+                    <h1 class="about-me__name">Aliaksandra Sakalouskaya</h1>
+                    <p class="about-me__position">Full Stack Developer</p>
+                </div>
+            </section>
+            <div class="contacts">
+                <ul class="contacts__list">
+                    <li class="contacts__item">
+                        <a class="contacts__link" href="mailto:asya.sokolovskaya.98@gmail.com">
+                            <svg class="contacts__icon" width="18" height="18" fill="none">
+                                <use href="./img/sprite.svg#icon-mail"></use>
+                            </svg>
+                            <span>
+                                asya.sokolovskaya.98@gmail.com
+                            </span>
+                        </a>
+                    </li>
+                    <li class="contacts__item">
+                        <a class="contacts__link" href="https://github.com/aliaksandra-sakalouskaya/" target="_blank">
+                            <svg class="contacts__icon" width="18" height="18" fill="none">
+                                <use href="./img/sprite.svg#icon-portfolio"></use>
+                            </svg>
+                            <span>
+                                Portfolio
+                            </span>
+                        </a>
+                    </li>
+                    <li class="contacts__item">
+                        <a class="contacts__link" href="https://www.linkedin.com/in/sokolovskaya-asya/" target="_blank" >
+                            <svg class="contacts__icon" width="18" height="18" fill="none">
+                                <use href="./img/sprite.svg#icon-linkedin"></use>
+                            </svg>
+                            <span>
+                                Aliaksandra Sakalouskaya
+                            </span>
+                        </a>
+                    </li>
+                    <li class="contacts__item">
+                        <a class="contacts__link" href="https://www.instagram.com/asya.sokolovskaya/" target="_blank">
+                            <svg class="contacts__icon" width="18" height="18" fill="none">
+                                <use href="./img/sprite.svg#icon-instagram"></use>
+                            </svg>
+                            <span>
+                                asya.sokolovskaya
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="description">
+               <p>
+                    I am a frontend developer with 5 years of experience in ecommerce, specializing in Magento 2. 
+                    I built and customized online-store themes for European clients: storefront work (layout XML, phtml, LESS, jQuery), 
+                    responsive email templates, and store configuration in the admin panel. Adobe Certified Professional — Adobe Commerce Front-End Developer.
+                </p>
+                <p>
+                    Joining The Rolling Scopes School has been a long-standing goal that I never had time for while working on commercial projects. 
+                    I am now deliberately moving from Magento 2 toward modern full-stack development, and this new course — focused on a current 
+                    tech stack and hands-on work with AI tools — is my entry point. I want to apply my five years of ecommerce experience on a more modern
+                    technical foundation.
+                </p>
+            </div>
+            <section class="experience" id="experience">
+                <h2>Experience</h2>
+
+                <ul class="experience__list">
+                    <li class="experience__item">
+                        <div class="experience__content">
+                            <h3 class="experience__role">
+                                Magento Frontend Developer
+                            </h3>
+                            <p class="experience__company">
+                                <a class="experience__link" href="https://belvg.com/" target="_blank">
+                                    <svg class="experience__icon" width="18" height="18" fill="none">
+                                        <use href="./img/sprite.svg#icon-job"></use>
+                                    </svg>
+                                    <span>
+                                        BelVG
+                                    </span>
+                                </a>
+                            </p>
+                            <p class="experience__period">
+                                <svg class="experience__icon" width="18" height="18" fill="none">
+                                    <use href="./img/sprite.svg#icon-calendar"></use>
+                                </svg>
+                                <span class="experience__dates">
+                                    July 2021 — September 2026
+                                </span>
+                            </p>
+                        </div>
+
+                        <ul class="experience__responsibilities">
+                            <li class="experience__responsibility">
+                                Developed and extended Magento 2 themes for clients across Europe (early on, based on a SmartEBusiness theme).
+                            </li>
+                            <li class="experience__responsibility">
+                                Storefront markup and logic: layout XML, phtml, LESS, RequireJS, jQuery, Knockout.js.
+                            </li>
+                            <li class="experience__responsibility">
+                                Responsive layout for transactional and marketing email templates.
+                            </li>
+                            <li class="experience__responsibility"> 
+                                Configured online stores through the Magento admin panel.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section class="code" id="code">
+                <h2>
+                    Code Samples
+                </h2>
+                <div class="code__sample">
+                    <pre>
+                        <code class="language-js">
+const computeNumberWithAction = function(inp1, inp2, actionSymbol) {
+    const num1 = Number(inp1.value);
+    const num2 = Number(inp2.value);
+
+    switch(actionSymbol) {
+        case '+':
+            return num1 + num2;
+        case '-':
+            return num1 - num2;
+        case '*':
+            return num1 * num2;
+        case '/':
+            return num1 / num2;
+        default:
+            throw new Error(`Unknown operation: ${actionSymbol}`);
+    }
+}
+                        </code>
+                    </pre>
+                </div>
+            </section>
+            <div class="columns">
+                <section class="skills" id="skills">
+                    <h2>Skills</h2>
+
+                    <ul class="skills__list">
+                        <li class="skills__item">
+                            <h3 class="skills__title">
+                                Markup & styling
+                            </h3>
+                            <div class="skills__description">
+                                HTML5, CSS3, LESS, responsive and cross-browser layout
+                            </div>
+                        </li>
+                        <li class="skills__item">
+                            <h3 class="skills__title">
+                                Magento 2 frontend
+                            </h3>
+                            <div class="skills__description">
+                                Layout XML, phtml templates, theme development and customization, 
+                                UI components, responsive transactional and marketing emails
+                            </div>
+                        </li>
+                        <li class="skills__item">
+                            <h3 class="skills__title">
+                                Tools
+                            </h3>
+                            <div class="skills__description">
+                                Git, GitLab, Magento admin-panel store configuration, Docker, Composer
+                            </div>
+                        </li>
+                        <li class="skills__item">
+                            <h3 class="skills__title">
+                                Languages
+                            </h3>
+                            <div class="skills__description">
+                                Russian (native), English (B1)
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="education" id="education">
+                    <h2>Education</h2>
+                    <ul class="education__list">
+                        <li class="education__item">
+                            <h3 class="education__title">
+                                The Rolling Scopes School
+                            </h3>
+                            <div class="education__content">
+                                <div class="education__description">
+                                    Full Stack Developer course
+                                </div>
+                                 <p class="education__period">
+                                    <svg class="education__icon" width="18" height="18" fill="none">
+                                        <use href="./img/sprite.svg#icon-calendar"></use>
+                                    </svg>
+                                    <span class="education__dates">
+                                        September 2026 — June 2027
+                                    </span>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="education__item">
+                            <h3 class="education__title">
+                                Adobe Certified Professional
+                            </h3>
+                            <div class="education__content">
+                                <div class="education__description">
+                                    Adobe Commerce Front-End Developer
+                                </div>
+                                <p class="education__period">
+                                    <svg class="education__icon" width="18" height="18" fill="none">
+                                        <use href="./img/sprite.svg#icon-calendar"></use>
+                                    </svg>
+                                    <span class="education__dates">
+                                        March 2025
+                                    </span>
+                                </p>
+                            </div>
+                        </li>       
+                        <li class="education__item">
+                            <h3 class="education__title">
+                                Wayup School
+                            </h3>
+                            <div class="education__content">
+                                <div class="education__description">
+                                    HTML Markup course
+                                </div>
+                                <p class="education__period">
+                                    <svg class="education__icon" width="18" height="18" fill="none">
+                                        <use href="./img/sprite.svg#icon-calendar"></use>
+                                    </svg>
+                                    <span class="education__dates">
+                                        February 2019
+                                    </span>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="columns">
+                <div class="rs-logo">
+                    <a href="https://rs.school/" target="_blank">
+                        <img src="./img/rs-logo.svg" alt="Rolling Scopes School logo" width="120" height="50">
+                    </a>
+                </div>
+                <div class="copyright">
+                    <small>&copy; 2026 Aliaksandra Sakalouskaya</small>
+                </div>
+                <div class="github">
+                    <a class="github__link" href="https://github.com/aliaksandra-sakalouskaya/" target="_blank">
+                        My GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.30.0/prism.min.js"></script>
+</body>
+</html>

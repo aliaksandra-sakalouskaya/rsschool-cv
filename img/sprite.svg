@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+
+    <symbol id="icon-mail" viewBox="0 0 12 12">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M2 2h8c.55 0 1 .45 1 1v6c0 .55-.45 1-1 1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1"/>
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M11 3 6 6.5 1 3"/>
+    </symbol>
+
+    <symbol id="icon-portfolio" viewBox="0 0 12 12">
+        <g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 6.5a2.5 2.5 0 0 0 3.77.27l1.5-1.5a2.5 2.5 0 0 0-3.535-3.535l-.86.855"/>
+            <path d="M7 5.5a2.5 2.5 0 0 0-3.77-.27l-1.5 1.5a2.5 2.5 0 0 0 3.535 3.535l.855-.855"/>
+        </g>
+    </symbol>
+
+    <symbol id="icon-linkedin" viewBox="0 0 12 12">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8" d="M8 4a3 3 0 0 1 3 3v3.5H9V7a1 1 0 0 0-2 0v3.5H5V7a3 3 0 0 1 3-3M3 4.5H1v6h2zM2 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+    </symbol>
+
+    <symbol id="icon-instagram" viewBox="0 0 12 12">
+        <g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8">
+            <path d="M8.5 1h-5A2.5 2.5 0 0 0 1 3.5v5A2.5 2.5 0 0 0 3.5 11h5A2.5 2.5 0 0 0 11 8.5v-5A2.5 2.5 0 0 0 8.5 1"/>
+            <path d="M8 5.685a2 2 0 1 1-3.957.587A2 2 0 0 1 8 5.685M8.75 3.25h.005"/>
+        </g>
+    </symbol>
+
+    <symbol id="icon-job" viewBox="0 0 12 12">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M10 3.5H2a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1"/>
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M8 10.5v-8a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v8"/>
+    </symbol>
+
+    <symbol id="icon-calendar" viewBox="0 0 12 12">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M9.5 2h-7a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1"/>
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M8 1v2"/>
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M4 1v2"/>
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M1.5 5h9"/>
+    </symbol>
+</svg>
