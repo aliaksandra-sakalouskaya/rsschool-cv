@@ -1,2 +1,2 @@
-* [https://aliaksandra-sakalouskaya.github.io/rsschool-cv/cv](https://aliaksandra-sakalouskaya.github.io/rsschool-cv/cv)
-* [https://aliaksandra-sakalouskaya.github.io/rsschool-cv/](https://aliaksandra-sakalouskaya.github.io/rsschool-cv/)
+* [CV - Markdown](https://aliaksandra-sakalouskaya.github.io/rsschool-cv/cv)
+* [CV - Web](https://aliaksandra-sakalouskaya.github.io/rsschool-cv/)
